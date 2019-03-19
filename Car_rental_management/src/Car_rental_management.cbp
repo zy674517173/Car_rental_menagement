@@ -32,6 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="../include/Aodi.h" />
+		<Unit filename="../include/Car.h" />
+		<Unit filename="../include/Jinlong.h" />
+		<Unit filename="../include/Mazida.h" />
+		<Unit filename="../include/Pikaxue.h" />
+		<Unit filename="../include/Songhuajiang.h" />
+		<Unit filename="../include/Yiweike.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
