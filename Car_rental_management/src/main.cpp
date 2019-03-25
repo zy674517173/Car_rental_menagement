@@ -4,16 +4,43 @@ using namespace std;
 
 int main()
 {
-    cout << "»¶Ó­À´µ½Óå¸ç×â³µÏµÍ³" << endl;
-    cout << "ÊÇ·ñ×â³µ: ÊÇµÄ£¬ÎÒÒª×â£¨1£© ²»£¬ÎÒµã´íÀ²£¨0£©" << endl;
+    cout << "æ¬¢è¿Žæ¥åˆ°æ¸å“¥ç§Ÿè½¦ç³»ç»Ÿ" << endl;
+    cout << "æ˜¯å¦ç§Ÿè½¦: æ˜¯çš„ï¼Œæˆ‘è¦ç§Ÿï¼ˆ1ï¼‰ ä¸ï¼Œæˆ‘ç‚¹é”™å•¦ï¼ˆ0ï¼‰" << endl;
 
     int i_ifRentCar;
     cin >> i_ifRentCar;
+
     if(i_ifRentCar == 0){
-        cout << "»¶Ó­ÏÂ´ÎÊ¹ÓÃÑ½£¡" << endl;
+        cout << "æ¬¢è¿Žä¸‹æ¬¡ä½¿ç”¨å‘€ï¼" << endl;
         return 0;
     }
 
+    Aodi *pa = new Aodi();
+    Mazida *pm = new Mazida();
+    Pikaxue *pp = new Pikaxue();
+    Jinlong *pj = new Jinlong();
+    Songhuajiang *ps = new Songhuajiang();
+    Yiweike *py = new Yiweike();
 
+    int i_Rent_number;
+    cout << "è¯·è¾“å…¥è¦ç§Ÿè½¦çš„æ•°é‡ï¼ˆæœ€å¤§ä¸º6ï¼‰ï¼š" << endl;
+    cin >> i_Rent_number;
+
+    cout << "è¯·ä¾æ¬¡è¾“å…¥è¦ç§Ÿè½¦çš„åºå·" << endl;
+    int Rent_number[i_Rent_number];
+    for(int i=0;i<i_Rent_number;i++){
+        cin >> Rent_number[i];
+    }
+
+
+
+
+    delete pa, pm, pp, pj, ps, py;
+    pa = NULL;
+    pm = NULL;
+    pp = NULL;
+    pj = NULL;
+    ps = NULL;
+    py = NULL;
     return 0;
 }
