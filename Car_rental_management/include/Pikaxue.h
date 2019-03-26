@@ -3,8 +3,9 @@
 
 #include "../include/Car.h"
 
-class Pikaxue::public Car
+class Pikaxue:public Car
 {
+public:
     Pikaxue(){
         i_Number = 3;
         str_Name = "皮卡雪";
@@ -12,14 +13,6 @@ class Pikaxue::public Car
         i_Cap_person = 4;
         i_Cap_thing = 2;
     }
-public:
-    int getCapperson(){
-        return i_Cap_person;
-    }
-    int getCapperson(){
-        return i_Cap_thing;
-    }
-private:
     int i_Cap_person;
     int i_Cap_thing;
 };

@@ -3,19 +3,15 @@
 
 #include "../include/Car.h"
 
-class Mazida::public Car
+class Mazida:public Car
 {
+public:
     Mazida(){
         i_Number = 2;
         str_Name = "马自达6";
         i_Rent_money = 400;
-        i_Cap_person = 4
+        i_Cap_person = 4;
     }
-public:
-    int getCapperson(){
-        return i_Cap_person;
-    }
-private:
     int i_Cap_person;
 };
 

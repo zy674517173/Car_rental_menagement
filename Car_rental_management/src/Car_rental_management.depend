@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1553608713 source:e:\github desktop\car_rental_menagement\car_rental_management\src\main.cpp
+	<iostream>
+	"../include/Car.h"
+	"../include/Aodi.h"
+	"../include/Pikaxue.h"
+	"../include/Songhuajiang.h"
+	"../include/Jinlong.h"
+	"../include/Mazida.h"
+	"../include/Yiweike.h"
+
+1553607238 e:\github desktop\car_rental_menagement\car_rental_management\include\car.h
+	<string>
+
+1553607394 e:\github desktop\car_rental_menagement\car_rental_management\include\aodi.h
+	"../include/Car.h"
+
+1553607302 e:\github desktop\car_rental_menagement\car_rental_management\include\pikaxue.h
+	"../include/Car.h"
+
+1553607486 e:\github desktop\car_rental_menagement\car_rental_management\include\songhuajiang.h
+	"../include/Car.h"
+
+1553607486 e:\github desktop\car_rental_menagement\car_rental_management\include\jinlong.h
+	"../include/Car.h"
+
+1553607486 e:\github desktop\car_rental_menagement\car_rental_management\include\mazida.h
+	"../include/Car.h"
+
+1553607486 e:\github desktop\car_rental_menagement\car_rental_management\include\yiweike.h
+	"../include/Car.h"
+
